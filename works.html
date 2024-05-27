@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#4285f4">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#4285f4">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<!-- BOX ICON -->
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<!-- AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<title>Welcome To My Portfolio</title>
+</head>
+<body>
+	<!-- HEADER -->
+	<header class="l-header">
+		<nav class="nav bd-grid">
+			<div class="nav__toggle" id="nav-toggle">
+				<i class="bx bx-menu"></i>
+			</div>
+
+
+			<div class="nav__menu" id="nav-menu">
+				<div class="nav__close" id="nav-close">
+					<i class="bx bx-x"></i>
+				</div>
+
+				<div class="nav__list">
+					<ul>
+						<li class="nav__item"><a href="index.html#home" class="nav__link active">Home</a></li>
+						<li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
+						<li class="nav__item"><a href="index.html#Education" class="nav__link">Education</a></li>
+						<li class="nav__item"><a href="index.html#Experience" class="nav__link">Experience</a></li>
+						<li class="nav__item"><a href="index.html#services" class="nav__link">Services</a></li>
+						<li class="nav__item"><a href="index.html#works" class="nav__link">Works</a></li>
+						<li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+						<li class="nav__item"><a href="index.html#contact" class="nav__link">Contact Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main class="l-main">
+		<!-- WORKS -->
+		<section class="works section" id="works">
+			<span class="section-subtitle" data-aos="fade-up">My Portfolio</span>
+			<h2 class="section-title" data-aos="fade-up" data-aos-delay="500">Recent Works</h2>
+
+			<div class="works__container bd-grid">
+
+				<!-- Content Works -->
+	
+			</div>
+
+			<div class="works__discover">
+				<a href="index.html" class="button works__button" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="500">
+					<i class="fa fa-arrow-left works__icon__info"></i> Back To Home
+				</a>
+			</div>
+
+		</section>
+
+		<!-- Modal -->
+		<div class="modal-container" id="modal__container">
+			<div class="modal">
+				<h1 class="modal-title"></h1>
+				<div class="modal-content">
+					<div class="projects__container bg-grid">
+						<button id="prevBtn"><i class="fa fa-chevron-left"></i></button>
+						<button id="nextBtn"><i class="fa fa-chevron-right"></i></button>
+						<div class="projects__picture">
+							<div class="projects__slide">
+								<img id="firstSlide" src="https://cdn1-production-images-kly.akamaized.net/GVgUU_SxlV0i_IEMUSoZQGJTI4U=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2735401/original/083839100_1550814009-HL.jpg" alt="">
+							</div>
+						</div>
+						<div class="projects__detail">
+							<table>
+								<tr>
+									<th>Technology</th>
+									<th>:</th>
+									<td><span class="technology-name"></span></td>
+								</tr>
+								<tr>
+									<th>Information</th>
+									<th>:</th>
+									<td><span class="information"></span></td>
+								</tr>
+								<table>
+									<tr>
+										<th>Repository</th>
+										<th>:</th>
+										<td><span class="repository"></span></td>
+									</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<button class="close"><i class="fa fa-times"></i> Close me</button>
+			</div>
+		</div>
+		<!-- End Modal -->
+		
+	 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 <script src="assets/js/custom.js"></script>
+	 <script>
+		 // Carouselnya
+		const projectsSlide = document.querySelector('.projects__slide')
+		const projectsImages = document.querySelectorAll('.projects__slide img')
+
+		// Tombol prev dan next
+		const prevBtn = document.querySelector('#prevBtn')
+		const nextBtn = document.querySelector('#nextBtn')
+
+		// Buat counter untuk slides nya
+		let counter = 1
+		const size = projectsImages[0].clientWidth ?? 0
+		projectsSlide.style.transform = 'translateX('+ (-size * counter) +'px)'
+
+		prevBtn.addEventListener('click', function () {
+			projectsSlide.style.transition = "transform 0.5s ease-in"
+			counter--
+			projectsSlide.style.transform = 'translateX('+ (-size * counter) +'px)'
+		})
+		nextBtn.addEventListener('click', function () {
+			// console.log(-size)
+			// alert('TES')
+			projectsSlide.style.transition = "transform 0.5s ease-in"
+			counter++
+			projectsSlide.style.transform = 'translateX('+ (-size * counter) +'px)'
+		})
+		projectsSlide.addEventListener('transitionend', function () {
+			if (counter == 0) {
+				prevBtn.style.display = 'none'
+			} else {
+				prevBtn.style.display = 'block'
+			}
+			if (counter == 2) {
+				nextBtn.style.display = 'none'
+			} else {
+				nextBtn.style.display = 'block'
+			}
+			// if (projectsImages[counter].id === "firstSlide") {
+			// 	prevBtn.style.display = 'none'
+			// } else {
+			// 	prevBtn.style.display = 'block'
+			// }
+			// if (projectsImages[counter].id === "lastSlide") {
+			// 	nextBtn.style.display = 'none'
+			// } else {
+			// 	nextBtn.style.display = 'block'
+			// }
+		})
+		// Fetch data ke file json dulu ;)
+		async function fetchProject() {
+			const worksContainer = document.querySelector('.works__container')
+			const modalContainer = document.querySelector('#modal__container')
+			const openModal = document.getElementsByClassName('open__modal')
+			const modalTitle = document.querySelector('.modal-title')
+			const technologyTitle = document.querySelector('.technology-name')
+			const informationTitle = document.querySelector('.information')
+			const repositoryTitle = document.querySelector('.repository')
+			const closeModal = document.querySelector('.close')
+			const baseImage = 'https://cdn1-production-images-kly.akamaized.net/GVgUU_SxlV0i_IEMUSoZQGJTI4U=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2735401/original/083839100_1550814009-HL.jpg,https://cdn1-production-images-kly.akamaized.net/GVgUU_SxlV0i_IEMUSoZQGJTI4U=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2735401/original/083839100_1550814009-HL.jpg,https://cdn1-production-images-kly.akamaized.net/GVgUU_SxlV0i_IEMUSoZQGJTI4U=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2735401/original/083839100_1550814009-HL.jpg'
+
+			await fetch('projects.json').then(res => res.json()).then(data => {
+				let newRow = ''
+				data.data.forEach((element, index) => {
+					// console.log(element.information)
+
+					let firstImage = element.images[0].ss.split(',')[0]
+					newRow += `
+					<div class="works__img" data-aos="fade-in" data-aos-delay="800" data-aos-duration="800">
+						<img src="${firstImage != '' ? firstImage : 'https://cdn1-production-images-kly.akamaized.net/GVgUU_SxlV0i_IEMUSoZQGJTI4U=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2735401/original/083839100_1550814009-HL.jpg'}" alt="">
+
+						<div class="works__data open__modal" data-images="${element.images[0].ss != '' ? element.images[0].ss : baseImage}"
+						data-project="${element.project_name}" data-technology="${element.technology}" data-information="${element.information}" data-repository="${element.repository}">
+							<a href="#" class="works__link"><i class="fa fa-eye"></i></a>
+							<span class="works__title">${element.project_name}</span>
+						</div>
+					</div>
+					`
+				})
+				worksContainer.innerHTML = newRow
+			})
+			// Modal JS
+			// Tampilkan di modal
+			for (let i = 0; i < openModal.length; i++) {
+				openModal[i].addEventListener('click', () => {
+					// Event untuk menampilkan modal
+					modalContainer.classList.add('show')
+					// Buat variable
+					let projectName = openModal[i].dataset.project
+					let technologyName = openModal[i].dataset.technology
+					let images = openModal[i].dataset.images
+					let information = openModal[i].dataset.information
+					let repository = openModal[i].dataset.repository
+					
+					let showSlider = ''
+					images.split(',').forEach((e, i) => {
+						// console.log(i)
+						if (i == 0) {
+							slideId = 'firstSlide'
+						} 
+						else if(i == 1) {
+							slideId = ''
+						}
+						else if(i == 2) {
+							slideId = 'lastSlide'
+						}
+						showSlider += `<img id="${slideId}" src="${e}" alt="">`
+					})
+					projectsSlide.innerHTML = showSlider
+
+					// Tampilkan
+					modalTitle.innerHTML = projectName
+					technologyTitle.innerHTML = technologyName
+					informationTitle.innerHTML = information
+					repositoryTitle.innerHTML = repository
+				})
+			}
+			closeModal.addEventListener('click', () => {
+				modalContainer.classList.remove('show')
+			})
+		}
+		fetchProject()
+	 </script>
+</body>
+</html>

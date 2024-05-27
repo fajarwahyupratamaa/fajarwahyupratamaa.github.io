@@ -1,0 +1,148 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "project_name": "Website Peminjaman Ruang SKPB ITS",
+            "images": [
+                {
+                    "no": 37,
+                    "ss": "assets/images/umum1.png,assets/images/umum2.png,assets/images/umum30.png"
+                }
+            ],
+            "technology": "HTML, PHP, CSS, Tailwind, Javasript",
+            "information": "A system to integrate services for using ITS facilities (resource sharing) in the form of borrowing and renting rooms for ITS students and employees (Lecturers and Tendik)",
+            "repository": "https://github.com/fajarwahyupratamaa/Website-Peminjaman-Ruang-SKPB-ITS.git"
+        },
+        {
+            "id": 2,
+            "project_name": "Wesite Admin Peminjaman Ruang SKPB ITS ",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/admin1.jpeg,assets/images/admin2.jpeg,assets/images/admin3.jpeg"
+                }
+            ],
+            "technology": "HTML, CSS, Bootsrap, Javasript",
+            "information": "System for Admin to manage and integrate ITS facility usage services (resource sharing)",
+            "repository":"https://github.com/fajarwahyupratamaa/Admin-Peminjaman-Ruang.git"
+        },
+        {
+            "id": 3,
+            "project_name": "BI Analyst: Bank Muamalat x Rakamin Academy",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/data3.png,assets/images/data2.png,assets/images/data1.png"
+                }
+            ],
+            "technology": "Excel, Google cloud Big Query, Google Looker Studio",
+            "information": "This project is the result of my final assignment, as a Business Intelligence Analyst Intern who has understood business data at Bank Muamalat",
+            "repository":"https://github.com/fajarwahyupratamaa/PBI-Bank-Muamalat.git"
+        },
+        {
+            "id": 4,
+            "project_name": "BI Project: NETFLIX TV Show & Movie",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/data5.png,assets/images/data6.png,assets/images/data4.png"
+                }
+            ],
+            "technology": "Excel,Tableau",
+            "information": "Collect, analyze, and visualize data from the Netflix streaming platform, encompassing information about available movies and TV shows. This data is then integrated into an interactive dashboard that provides in-depth insights into the content available on Netflix.",
+            "repository":"https://github.com/fajarwahyupratamaa/BI-PROJECT-NETFLIX-TV-SHOW-MOVIE.git"
+        },
+        {
+            "id": 5,
+            "project_name": "HR Analytics Dashboard Using Tableau",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/data7.png,assets/images/data8.png,assets/images/data9.png"
+                }
+            ],
+            "technology": "Excel,Tableau",
+            "information": "This HR Dashboard project aims to create a comprehensive dashboard that analyzes and visualizes human resource data in a company.",
+            "repository":"https://github.com/fajarwahyupratamaa/HR-Analytics-Dashboard-Using-Tableau.git"
+        },
+        {
+            "id": 6,
+            "project_name": "Company Order Dashboard",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/data 10.png,assets/images/data11.png,assets/images/data12.png"
+                }
+            ],
+            "technology": "Excel,Google Looker Studio",
+            "information": "This project aims to create a comprehensive dashboard to analyze and visualize order data in the company",
+            "repository":"https://github.com/fajarwahyupratamaa/Order-Dashboard.git"
+        },
+        {
+            "id": 7,
+            "project_name": "Employee dashboard by company HR",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/data13.png,assets/images/data14.png,assets/images/data15.png"
+                }
+            ],
+            "technology": "Excel, Microsoft Power BI",
+            "information": "This dashboard is designed to provide in-depth insights into employee profiles and status through various important metrics and interactive visualizations.",
+            "repository":"https://github.com/fajarwahyupratamaa/Employee-dashboard-by-company-HR.git"
+        },
+        {
+            "id": 8,
+            "project_name": "Supermarket Sales Dashboard using Excel",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/data18.png,assets/images/data17.png,assets/images/data16.png"
+                }
+            ],
+            "technology": "Excel",
+            "information": "Using Excel with pivot tables as the main component to analyze and visualize sales data",
+            "repository":"https://github.com/fajarwahyupratamaa/Sales-Dashboard-using-Excel.git"
+        },
+        {
+            "id": 9,
+            "project_name": "UI/UX Desig For Mobile Apps Cattle Waste Management",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/ui2.png,assets/images/ui1.png,assets/images/ui3.png"
+                }
+            ],
+            "technology": "Figma",
+            "information": "This project focuses on the UI/UX design of a mobile application for cattle waste management using Figma.",
+            "repository":"https://www.figma.com/proto/b6kNskxzSP944Zdv9LY67y/Screen-Reference-(Community)?node-id=49-1882&t=OKQStpKvllO6itIq-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A821"
+        },
+        {
+            "id": 10,
+            "project_name": "SIR MODELING FOR THE SPREAD OF PERTUSSIS DISEASE WITH VACCINATION IN A CONSTANT HUMAN POPULATION",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/model1.png,assets/images/model2.png,assets/images/model3.png"
+                }
+            ],
+            "technology": "Mathlab",
+            "information": "This dashboard is designed to provide in-depth insights into employee profiles and status through various important metrics and interactive visualizations.",
+            "repository":"https://github.com/fajarwahyupratamaa/SIR-MODELING-FOR-THE-SPREAD-OF-PERTUSSIS-DISEASE-WITH-VACCINATION-IN-A-CONSTANT-HUMAN-POPULATION.git"
+        },
+        {
+            "id": 11,
+            "project_name": "Simple Calculator",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/kal1.png,assets/images/kal2.png"
+                }
+            ],
+            "technology": "Java, Netbeans",
+            "information": "one of the Object Based Programming (PBO) course projects.",
+            "repository":"https://github.com/fajarwahyupratamaa/Simple-Calculator.git"
+        }
+        
+    ]
+}
