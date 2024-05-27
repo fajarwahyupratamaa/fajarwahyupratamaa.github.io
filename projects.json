@@ -71,7 +71,7 @@
             "images": [
                 {
                     "no": 1,
-                    "ss": "assets/images/Data 10.png,assets/images/Data11.png,assets/images/data12.png"
+                    "ss": "assets/images/data10.png,assets/images/data11.png,assets/images/data12.png"
                 }
             ],
             "technology": "Excel,Google Looker Studio",
