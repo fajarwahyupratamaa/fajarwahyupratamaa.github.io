@@ -2,7 +2,7 @@
     "data": [
         {
             "id": 1,
-            "project_name": "Website Peminjaman Ruang SKPB ITS",
+            "project_name": "SKPB Facility Resource sharing website",
             "images": [
                 {
                     "no": 37,
@@ -15,7 +15,7 @@
         },
         {
             "id": 2,
-            "project_name": "Wesite Admin Peminjaman Ruang SKPB ITS ",
+            "project_name": "SKPB Facility Management System ",
             "images": [
                 {
                     "no": 1,
@@ -119,7 +119,7 @@
         },
         {
             "id": 10,
-            "project_name": "SIR MODELING FOR THE SPREAD OF PERTUSSIS DISEASE WITH VACCINATION IN A CONSTANT HUMAN POPULATION",
+            "project_name": "SIR Modeling for the Spread of Pertusis Disease with Vaccination in a Constant Human Population",
             "images": [
                 {
                     "no": 1,
