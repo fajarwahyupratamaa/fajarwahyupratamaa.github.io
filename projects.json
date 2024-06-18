@@ -119,7 +119,7 @@
         },
         {
             "id": 10,
-            "project_name": "SIR Modeling for the Spread of Pertusis Disease with Vaccination in a Constant Human Population",
+            "project_name": "SIR MODELING FOR THE SPREAD OF PERTUSSIS DISEASE WITH VACCINATION IN A CONSTANT HUMAN POPULATION",
             "images": [
                 {
                     "no": 1,
@@ -127,11 +127,50 @@
                 }
             ],
             "technology": "Mathlab",
-            "information": "This dashboard is designed to provide in-depth insights into employee profiles and status through various important metrics and interactive visualizations.",
+            "information": "This modeling approach is designed to simulate and analyze the spread of pertussis disease within a stable human population, incorporating vaccination dynamics",
             "repository":"https://github.com/fajarwahyupratamaa/SIR-MODELING-FOR-THE-SPREAD-OF-PERTUSSIS-DISEASE-WITH-VACCINATION-IN-A-CONSTANT-HUMAN-POPULATION.git"
         },
         {
             "id": 11,
+            "project_name": "Stock Price Forecasting of PT. Gudang Garam Tbk",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/metper1.png,assets/images/metper3.png,assets/images/metper4.png"
+                }
+            ],
+            "technology": "Excel, Rstudio, Python",
+            "information": "Forecasting PT. Gudang Garam Tbk Stock Prices Using ARIMA: Data Analysis, Model Selection, and Prediction Evaluation",
+            "repository":"https://github.com/fajarwahyupratamaa/Stock-Price-Forecasting-of-PT.-Gudang-Garam-Tbk.git"
+        },
+        {
+            "id": 12,
+            "project_name": "Integration of DEMATEL (Decision Making Trial Evaluation and Laboratory) method in multi-criteria decision making",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/anres1.png,assets/images/anres2.png,assets/images/anres3.png"
+                }
+            ],
+            "technology": "-",
+            "information": "Integrate the results of the DEMATEL analysis into the risk management decision-making",
+            "repository":"https://drive.google.com/file/d/1O-0TpueF7NdcLhfdMaItYWKRdUfzhCKN/view?usp=sharing"
+        },
+        {
+            "id": 13,
+            "project_name": "Analysis of Raw Material Inventory Control Using the Economic Order Quantity (EOQ) Method",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/eoq1.png,assets/images/eoq2.png,assets/images/eoq3.png"
+                }
+            ],
+            "technology": "Excel",
+            "information": "Analysis of Raw Material Inventory Control Using Economic Order Quantity (EOQ) Method: Optimizing Inventory Management for Efficiency and Cost Effectiveness",
+            "repository":"https://drive.google.com/file/d/1pHK1y_vaAC-YPmUmEXW5Ftfw-CnoOzjZ/view?usp=sharing"
+        },
+        {
+            "id": 14,
             "project_name": "Simple Calculator",
             "images": [
                 {
