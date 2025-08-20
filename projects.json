@@ -1,6 +1,54 @@
 {
     "data": [
         {
+            "id": 15,
+            "project_name": " Forecasting Buyback Price of Antam Gold Using Transfer Function Model",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/F1.png,assets/images/F2.png,assets/images/F3.png"
+                }
+            ],
+            "technology": "Minitab, R (programing), SAS Programing, Excel",
+            "information": "Developed multiple Transfer Function Models in R, Minitab, and SAS to capture the impact of exchange rate fluctuations on gold buyback prices."
+        },
+        {
+            "id": 16,
+            "project_name": " Analysis & Forecast of Indonesia’s GDP 2025",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/F4.png,assets/images/F5.png,assets/images/F6.png"
+                }
+            ],
+            "technology": "Minitab, Python, Excel",
+            "information": " Compared SARIMAX with Machine Learning (Random Forest & XGBoost) to evaluate econometric and ML approaches in GDP forecasting."
+        },
+        {
+            "id": 17,
+            "project_name": " Analysis & Forecast of Toll Road Traffic Volume and Revenue – PT Jasamarga Surabaya",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/F7.png,assets/images/F8.png,assets/images/F9.png"
+                }
+            ],
+            "technology": "Minitab, R (programing), SAS Programing, Excel",
+            "information": " Collaboration between the Industrial and Financial Mathematics Laboratory and PT Jasamarga Surabaya, focusing on forecasting toll road traffic volume and revenue."
+        },
+        {
+            "id": 18,
+            "project_name": " Home Credit Score Card Model",
+            "images": [
+                {
+                    "no": 1,
+                    "ss": "assets/images/F10.png,assets/images/F11.png,assets/images/F12.png"
+                }
+            ],
+            "technology": "Python, Excel",
+            "information": " predicting eligible customers with the ability to pay are not unnecessarily rejected during the loan application process."
+        },
+        {
             "id": 1,
             "project_name": "SKPB Facility Resource sharing website",
             "images": [
